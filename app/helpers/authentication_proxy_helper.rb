@@ -1,0 +1,2 @@
+module AuthenticationProxyHelper
+end
