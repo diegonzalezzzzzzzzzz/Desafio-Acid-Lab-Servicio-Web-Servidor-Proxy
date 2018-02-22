@@ -3,22 +3,41 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+Proyecto que Funcionará como Servidor Proxy:
 
-* Ruby version
+Versión Ruby:
+2.2.6
 
-* System dependencies
+Gemas Instaladas:
+#coffee-script
+gem 'coffee-script-source', '1.8.0'
+#DataBase
+gem 'pg', '0.18'
+#Validates Email Format Of'
+gem 'validates_email_format_of'
+#Awesome Print
+gem 'awesome_print'
+# Gemfile
+gem 'mailjet', :git => 'https://github.com/mailjet/mailjet-gem.git'
 
-* Configuration
+Configuracion:
+Clonar el Proyecto en su Local y ejecutar bundle install
 
-* Database creation
+Creación de Base de Datos:
+  Postgres
+  database: authentication_project
+  username: postgres
+  password: postgres
+ejecutar rake db:create
 
-* Database initialization
+Inicialización del proyecto
+ejecutar rails s
 
-* How to run the test suite
+Es importante descargar ambos proyectos para que pueda funcionar el flujo completo, ya que uno funciona como Servicio Web y se comunica con el Servicio Web como Servidor Proxy, sus nombres en el repositorio son los siguientes:
 
-* Services (job queues, cache servers, search engines, etc.)
+Proyecto 1
+Desafio-Acid-Lab-Servicio-Web: Se encuentra configurado desde Puma.rb con el puerto 3000
 
-* Deployment instructions
+Proyecto 2
+Desafio-Acid-Lab-Servicio-Web-Servidor-Proxy: Se encuentra configurado desde Puma.rb con el puerto 3001
 
-* ...
