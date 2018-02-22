@@ -1,14 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Este archivo README documenta la información necesaria sobre el Servicio Web como Servidor Proxy(Proyecto 2).
 
-Proyecto que Funcionará como Servidor Proxy:
+Descripción:
 
-Versión Ruby:
+# Versión Ruby:
 2.2.6
 
-Gemas Instaladas:
+# Gemas Instaladas:
 -coffee-script
 gem 'coffee-script-source', '1.8.0'
 -DataBase Postgres
@@ -20,10 +19,10 @@ gem 'awesome_print'
 -mailjet: como servicio de correos
 gem 'mailjet', :git => 'https://github.com/mailjet/mailjet-gem.git'
 
-Configuracion:
+# Configuracion:
 Clonar el Proyecto en su Local y ejecutar bundle install
 
-Inicialización del proyecto
+# Inicialización del Proyecto:
 ejecutar rails s
 
 Es importante descargar ambos proyectos para que pueda funcionar el flujo completo, ya que uno funciona como Servicio Web y se comunica con el Servicio Web como Servidor Proxy, sus nombres en el repositorio son los siguientes:
