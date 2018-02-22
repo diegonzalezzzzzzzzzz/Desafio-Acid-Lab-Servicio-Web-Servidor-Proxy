@@ -9,26 +9,19 @@ Versión Ruby:
 2.2.6
 
 Gemas Instaladas:
-#coffee-script
+-coffee-script
 gem 'coffee-script-source', '1.8.0'
-#DataBase
+-DataBase Postgres
 gem 'pg', '0.18'
-#Validates Email Format Of'
+-Validates Email Format Of Email'
 gem 'validates_email_format_of'
-#Awesome Print
+-Awesome Print
 gem 'awesome_print'
-# Gemfile
+-mailjet: como servicio de correos
 gem 'mailjet', :git => 'https://github.com/mailjet/mailjet-gem.git'
 
 Configuracion:
 Clonar el Proyecto en su Local y ejecutar bundle install
-
-Creación de Base de Datos:
-  Postgres
-  database: authentication_project
-  username: postgres
-  password: postgres
-ejecutar rake db:create
 
 Inicialización del proyecto
 ejecutar rails s
@@ -38,6 +31,6 @@ Es importante descargar ambos proyectos para que pueda funcionar el flujo comple
 Proyecto 1
 Desafio-Acid-Lab-Servicio-Web: Se encuentra configurado desde Puma.rb con el puerto 3000
 
-Proyecto 2
+Proyecto 2(Actual)
 Desafio-Acid-Lab-Servicio-Web-Servidor-Proxy: Se encuentra configurado desde Puma.rb con el puerto 3001
 
